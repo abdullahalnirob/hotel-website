@@ -2,7 +2,7 @@ import React from "react";
 import aboutImg from "../assets/about.jpg";
 const About = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-around px-10 md:px-32">
+    <div id="about" className="flex flex-col md:flex-row items-center justify-around px-10 md:px-32">
       <div className="my-5 md:my-0">
         <img src={aboutImg} alt="" className="md:w-[70%]" />
       </div>

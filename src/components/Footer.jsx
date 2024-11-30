@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/logo.png";
 const Footer = () => {
   return (
-    <div>
+    <div id="contact">
       <footer className="py-20 gap-4 px-10 md:px-20 bg-black text-white mt-10">
         <div className="grid grid-cols-1 md:grid-cols-4">
           <div className="flex flex-col items-start space-y-8">
@@ -15,9 +15,11 @@ const Footer = () => {
               </h1>
             </div>
             <div className="pb-4">
-              <button className="ring-1 text-yellow-300 hover:text-white hover:bg-yellow-300 duration-300 ring-yellow-300 px-4 py-2 rounded-md">
-                Book now
-              </button>
+              <a href="#booking">
+                <button className="ring-1 text-yellow-300 hover:text-white hover:bg-yellow-300 duration-300 ring-yellow-300 px-4 py-2 rounded-md">
+                  Book now
+                </button>
+              </a>
             </div>
           </div>
           <div className="space-y-4 pb-4">

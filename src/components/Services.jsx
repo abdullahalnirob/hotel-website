@@ -6,7 +6,7 @@ import { FaHeadphones } from "react-icons/fa6";
 import servicesImg from "../assets/service.jpg";
 const Services = () => {
   return (
-    <div className="px-10 md:px-32 my-20 flex flex-col md:flex-row justify-between items-center overflow-x-hidden">
+    <div id="services" className="px-10 md:px-32 my-20 flex flex-col md:flex-row justify-between items-center overflow-x-hidden">
       <div className="md:w-1/2">
         <div>
           <h1>SERVICES</h1>

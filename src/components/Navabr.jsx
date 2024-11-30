@@ -18,15 +18,25 @@ const Navabr = () => {
            Istoggle ? "top-[80px] duration-200" : "top-[-270px] duration-200"
          }`}
         >
-          <li className="hover:text-gray-300 cursor-pointer">Home</li>
-          <li className="hover:text-gray-300 cursor-pointer">About</li>
-          <li className="hover:text-gray-300 cursor-pointer">Services</li>
-          <li className="hover:text-gray-300 cursor-pointer">Contact</li>
+          <a href="#home">
+            <li className="hover:text-gray-300 cursor-pointer">Home</li>
+          </a>
+          <a href="#about">
+            <li className="hover:text-gray-300 cursor-pointer">About</li>
+          </a>
+          <a href="#services">
+            <li className="hover:text-gray-300 cursor-pointer">Services</li>
+          </a>
+          <a href="#contact">
+            <li className="hover:text-gray-300 cursor-pointer">Contact</li>
+          </a>
         </ul>
         <div className="flex items-center space-x-5">
-          <button className="bg-yellow-400 shadow-lg hover:bg-yellow-500 text-white px-4 py-2 rounded-md">
-            Book now
-          </button>
+          <a href="#booking">
+            <button className="bg-yellow-400 shadow-lg hover:bg-yellow-500 text-white px-4 py-2 rounded-md">
+              Book now
+            </button>
+          </a>
           <div onClick={toggle} className="xl:hidden cursor-pointer">
             {Istoggle ? (
               <i class="fa-solid fa-xmark text-white text-2xl"></i>
